@@ -67,6 +67,19 @@ return [
             'sslmode' => 'prefer',
         ],
 
+        'pgsql_sig' => [
+            'driver' => 'pgsql',
+            'host' => env('SIG_HOST', '127.0.0.1'),
+            'port' => env('SIG_PORT', '5432'),
+            'database' => env('SIG_DATABASE', 'forge'),
+            'username' => env('SIG_USERNAME', 'forge'),
+            'password' => env('SIG_PASSWORD', ''),
+            'charset' => 'utf8',
+            'prefix' => '',
+            'schema' => 'public',
+            'sslmode' => 'prefer',
+        ],
+
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'host' => env('DB_HOST', 'localhost'),

@@ -5240,21 +5240,21 @@ if (typeof jQuery === 'undefined') {
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)();
-exports.push([module.i, "\n.action-link[data-v-12423c18] {\n    cursor: pointer;\n}\n.m-b-none[data-v-12423c18] {\n    margin-bottom: 0;\n}\n", ""]);
+exports.push([module.i, "\n.action-link[data-v-3179683d] {\n    cursor: pointer;\n}\n.m-b-none[data-v-3179683d] {\n    margin-bottom: 0;\n}\n", ""]);
 
 /***/ }),
 /* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)();
-exports.push([module.i, "\n.action-link[data-v-14d07923] {\n    cursor: pointer;\n}\n.m-b-none[data-v-14d07923] {\n    margin-bottom: 0;\n}\n", ""]);
+exports.push([module.i, "\n.action-link[data-v-5bf7fb62] {\n    cursor: pointer;\n}\n.m-b-none[data-v-5bf7fb62] {\n    margin-bottom: 0;\n}\n", ""]);
 
 /***/ }),
 /* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)();
-exports.push([module.i, "\n.action-link[data-v-3f84f473] {\n    cursor: pointer;\n}\n.m-b-none[data-v-3f84f473] {\n    margin-bottom: 0;\n}\n", ""]);
+exports.push([module.i, "\n.action-link[data-v-6c2004ce] {\n    cursor: pointer;\n}\n.m-b-none[data-v-6c2004ce] {\n    margin-bottom: 0;\n}\n", ""]);
 
 /***/ }),
 /* 39 */
@@ -32804,19 +32804,19 @@ process.umask = function() { return 0; };
 
 
 /* styles */
-__webpack_require__(48)
+__webpack_require__(49)
 
 var Component = __webpack_require__(3)(
   /* script */
   __webpack_require__(31),
   /* template */
-  __webpack_require__(45),
+  __webpack_require__(46),
   /* scopeId */
-  "data-v-12423c18",
+  "data-v-5bf7fb62",
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/marcelobarbosa/htdocs/rest/resources/assets/js/components/passport/AuthorizedClients.vue"
+Component.options.__file = "/Users/marcelobarbosa/htdocs/rest-seed/resources/assets/js/components/passport/AuthorizedClients.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] AuthorizedClients.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32827,9 +32827,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-12423c18", Component.options)
+    hotAPI.createRecord("data-v-5bf7fb62", Component.options)
   } else {
-    hotAPI.reload("data-v-12423c18", Component.options)
+    hotAPI.reload("data-v-5bf7fb62", Component.options)
   }
 })()}
 
@@ -32842,19 +32842,19 @@ module.exports = Component.exports
 
 
 /* styles */
-__webpack_require__(50)
+__webpack_require__(48)
 
 var Component = __webpack_require__(3)(
   /* script */
   __webpack_require__(32),
   /* template */
-  __webpack_require__(47),
+  __webpack_require__(45),
   /* scopeId */
-  "data-v-3f84f473",
+  "data-v-3179683d",
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/marcelobarbosa/htdocs/rest/resources/assets/js/components/passport/Clients.vue"
+Component.options.__file = "/Users/marcelobarbosa/htdocs/rest-seed/resources/assets/js/components/passport/Clients.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] Clients.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32865,9 +32865,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-3f84f473", Component.options)
+    hotAPI.createRecord("data-v-3179683d", Component.options)
   } else {
-    hotAPI.reload("data-v-3f84f473", Component.options)
+    hotAPI.reload("data-v-3179683d", Component.options)
   }
 })()}
 
@@ -32880,19 +32880,19 @@ module.exports = Component.exports
 
 
 /* styles */
-__webpack_require__(49)
+__webpack_require__(50)
 
 var Component = __webpack_require__(3)(
   /* script */
   __webpack_require__(33),
   /* template */
-  __webpack_require__(46),
+  __webpack_require__(47),
   /* scopeId */
-  "data-v-14d07923",
+  "data-v-6c2004ce",
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/marcelobarbosa/htdocs/rest/resources/assets/js/components/passport/PersonalAccessTokens.vue"
+Component.options.__file = "/Users/marcelobarbosa/htdocs/rest-seed/resources/assets/js/components/passport/PersonalAccessTokens.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] PersonalAccessTokens.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32903,9 +32903,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-14d07923", Component.options)
+    hotAPI.createRecord("data-v-6c2004ce", Component.options)
   } else {
-    hotAPI.reload("data-v-14d07923", Component.options)
+    hotAPI.reload("data-v-6c2004ce", Component.options)
   }
 })()}
 
@@ -32914,252 +32914,6 @@ module.exports = Component.exports
 
 /***/ }),
 /* 45 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [(_vm.tokens.length > 0) ? _c('div', [_c('div', {
-    staticClass: "panel panel-default"
-  }, [_c('div', {
-    staticClass: "panel-heading"
-  }, [_vm._v("Authorized Applications")]), _vm._v(" "), _c('div', {
-    staticClass: "panel-body"
-  }, [_c('table', {
-    staticClass: "table table-borderless m-b-none"
-  }, [_vm._m(0), _vm._v(" "), _c('tbody', _vm._l((_vm.tokens), function(token) {
-    return _c('tr', [_c('td', {
-      staticStyle: {
-        "vertical-align": "middle"
-      }
-    }, [_vm._v("\n                                " + _vm._s(token.client.name) + "\n                            ")]), _vm._v(" "), _c('td', {
-      staticStyle: {
-        "vertical-align": "middle"
-      }
-    }, [(token.scopes.length > 0) ? _c('span', [_vm._v("\n                                    " + _vm._s(token.scopes.join(', ')) + "\n                                ")]) : _vm._e()]), _vm._v(" "), _c('td', {
-      staticStyle: {
-        "vertical-align": "middle"
-      }
-    }, [_c('a', {
-      staticClass: "action-link text-danger",
-      on: {
-        "click": function($event) {
-          _vm.revoke(token)
-        }
-      }
-    }, [_vm._v("\n                                    Revoke\n                                ")])])])
-  }))])])])]) : _vm._e()])
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('thead', [_c('tr', [_c('th', [_vm._v("Name")]), _vm._v(" "), _c('th', [_vm._v("Scopes")]), _vm._v(" "), _c('th')])])
-}]}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-12423c18", module.exports)
-  }
-}
-
-/***/ }),
-/* 46 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('div', [_c('div', {
-    staticClass: "panel panel-default"
-  }, [_c('div', {
-    staticClass: "panel-heading"
-  }, [_c('div', {
-    staticStyle: {
-      "display": "flex",
-      "justify-content": "space-between",
-      "align-items": "center"
-    }
-  }, [_c('span', [_vm._v("\n                        Personal Access Tokens\n                    ")]), _vm._v(" "), _c('a', {
-    staticClass: "action-link",
-    on: {
-      "click": _vm.showCreateTokenForm
-    }
-  }, [_vm._v("\n                        Create New Token\n                    ")])])]), _vm._v(" "), _c('div', {
-    staticClass: "panel-body"
-  }, [(_vm.tokens.length === 0) ? _c('p', {
-    staticClass: "m-b-none"
-  }, [_vm._v("\n                    You have not created any personal access tokens.\n                ")]) : _vm._e(), _vm._v(" "), (_vm.tokens.length > 0) ? _c('table', {
-    staticClass: "table table-borderless m-b-none"
-  }, [_vm._m(0), _vm._v(" "), _c('tbody', _vm._l((_vm.tokens), function(token) {
-    return _c('tr', [_c('td', {
-      staticStyle: {
-        "vertical-align": "middle"
-      }
-    }, [_vm._v("\n                                " + _vm._s(token.name) + "\n                            ")]), _vm._v(" "), _c('td', {
-      staticStyle: {
-        "vertical-align": "middle"
-      }
-    }, [_c('a', {
-      staticClass: "action-link text-danger",
-      on: {
-        "click": function($event) {
-          _vm.revoke(token)
-        }
-      }
-    }, [_vm._v("\n                                    Delete\n                                ")])])])
-  }))]) : _vm._e()])])]), _vm._v(" "), _c('div', {
-    staticClass: "modal fade",
-    attrs: {
-      "id": "modal-create-token",
-      "tabindex": "-1",
-      "role": "dialog"
-    }
-  }, [_c('div', {
-    staticClass: "modal-dialog"
-  }, [_c('div', {
-    staticClass: "modal-content"
-  }, [_vm._m(1), _vm._v(" "), _c('div', {
-    staticClass: "modal-body"
-  }, [(_vm.form.errors.length > 0) ? _c('div', {
-    staticClass: "alert alert-danger"
-  }, [_vm._m(2), _vm._v(" "), _c('br'), _vm._v(" "), _c('ul', _vm._l((_vm.form.errors), function(error) {
-    return _c('li', [_vm._v("\n                                " + _vm._s(error) + "\n                            ")])
-  }))]) : _vm._e(), _vm._v(" "), _c('form', {
-    staticClass: "form-horizontal",
-    attrs: {
-      "role": "form"
-    },
-    on: {
-      "submit": function($event) {
-        $event.preventDefault();
-        _vm.store($event)
-      }
-    }
-  }, [_c('div', {
-    staticClass: "form-group"
-  }, [_c('label', {
-    staticClass: "col-md-4 control-label"
-  }, [_vm._v("Name")]), _vm._v(" "), _c('div', {
-    staticClass: "col-md-6"
-  }, [_c('input', {
-    directives: [{
-      name: "model",
-      rawName: "v-model",
-      value: (_vm.form.name),
-      expression: "form.name"
-    }],
-    staticClass: "form-control",
-    attrs: {
-      "id": "create-token-name",
-      "type": "text",
-      "name": "name"
-    },
-    domProps: {
-      "value": (_vm.form.name)
-    },
-    on: {
-      "input": function($event) {
-        if ($event.target.composing) { return; }
-        _vm.form.name = $event.target.value
-      }
-    }
-  })])]), _vm._v(" "), (_vm.scopes.length > 0) ? _c('div', {
-    staticClass: "form-group"
-  }, [_c('label', {
-    staticClass: "col-md-4 control-label"
-  }, [_vm._v("Scopes")]), _vm._v(" "), _c('div', {
-    staticClass: "col-md-6"
-  }, _vm._l((_vm.scopes), function(scope) {
-    return _c('div', [_c('div', {
-      staticClass: "checkbox"
-    }, [_c('label', [_c('input', {
-      attrs: {
-        "type": "checkbox"
-      },
-      domProps: {
-        "checked": _vm.scopeIsAssigned(scope.id)
-      },
-      on: {
-        "click": function($event) {
-          _vm.toggleScope(scope.id)
-        }
-      }
-    }), _vm._v("\n\n                                                " + _vm._s(scope.id) + "\n                                        ")])])])
-  }))]) : _vm._e()])]), _vm._v(" "), _c('div', {
-    staticClass: "modal-footer"
-  }, [_c('button', {
-    staticClass: "btn btn-default",
-    attrs: {
-      "type": "button",
-      "data-dismiss": "modal"
-    }
-  }, [_vm._v("Close")]), _vm._v(" "), _c('button', {
-    staticClass: "btn btn-primary",
-    attrs: {
-      "type": "button"
-    },
-    on: {
-      "click": _vm.store
-    }
-  }, [_vm._v("\n                        Create\n                    ")])])])])]), _vm._v(" "), _c('div', {
-    staticClass: "modal fade",
-    attrs: {
-      "id": "modal-access-token",
-      "tabindex": "-1",
-      "role": "dialog"
-    }
-  }, [_c('div', {
-    staticClass: "modal-dialog"
-  }, [_c('div', {
-    staticClass: "modal-content"
-  }, [_vm._m(3), _vm._v(" "), _c('div', {
-    staticClass: "modal-body"
-  }, [_c('p', [_vm._v("\n                        Here is your new personal access token. This is the only time it will be shown so don't lose it!\n                        You may now use this token to make API requests.\n                    ")]), _vm._v(" "), _c('pre', [_c('code', [_vm._v(_vm._s(_vm.accessToken))])])]), _vm._v(" "), _vm._m(4)])])])])
-},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('thead', [_c('tr', [_c('th', [_vm._v("Name")]), _vm._v(" "), _c('th')])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "modal-header"
-  }, [_c('button', {
-    staticClass: "close",
-    attrs: {
-      "type": "button ",
-      "data-dismiss": "modal",
-      "aria-hidden": "true"
-    }
-  }, [_vm._v("×")]), _vm._v(" "), _c('h4', {
-    staticClass: "modal-title"
-  }, [_vm._v("\n                        Create Token\n                    ")])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('p', [_c('strong', [_vm._v("Whoops!")]), _vm._v(" Something went wrong!")])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "modal-header"
-  }, [_c('button', {
-    staticClass: "close",
-    attrs: {
-      "type": "button ",
-      "data-dismiss": "modal",
-      "aria-hidden": "true"
-    }
-  }, [_vm._v("×")]), _vm._v(" "), _c('h4', {
-    staticClass: "modal-title"
-  }, [_vm._v("\n                        Personal Access Token\n                    ")])])
-},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "modal-footer"
-  }, [_c('button', {
-    staticClass: "btn btn-default",
-    attrs: {
-      "type": "button",
-      "data-dismiss": "modal"
-    }
-  }, [_vm._v("Close")])])
-}]}
-module.exports.render._withStripped = true
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-14d07923", module.exports)
-  }
-}
-
-/***/ }),
-/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -33466,7 +33220,253 @@ module.exports.render._withStripped = true
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-hot-reload-api").rerender("data-v-3f84f473", module.exports)
+     require("vue-hot-reload-api").rerender("data-v-3179683d", module.exports)
+  }
+}
+
+/***/ }),
+/* 46 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [(_vm.tokens.length > 0) ? _c('div', [_c('div', {
+    staticClass: "panel panel-default"
+  }, [_c('div', {
+    staticClass: "panel-heading"
+  }, [_vm._v("Authorized Applications")]), _vm._v(" "), _c('div', {
+    staticClass: "panel-body"
+  }, [_c('table', {
+    staticClass: "table table-borderless m-b-none"
+  }, [_vm._m(0), _vm._v(" "), _c('tbody', _vm._l((_vm.tokens), function(token) {
+    return _c('tr', [_c('td', {
+      staticStyle: {
+        "vertical-align": "middle"
+      }
+    }, [_vm._v("\n                                " + _vm._s(token.client.name) + "\n                            ")]), _vm._v(" "), _c('td', {
+      staticStyle: {
+        "vertical-align": "middle"
+      }
+    }, [(token.scopes.length > 0) ? _c('span', [_vm._v("\n                                    " + _vm._s(token.scopes.join(', ')) + "\n                                ")]) : _vm._e()]), _vm._v(" "), _c('td', {
+      staticStyle: {
+        "vertical-align": "middle"
+      }
+    }, [_c('a', {
+      staticClass: "action-link text-danger",
+      on: {
+        "click": function($event) {
+          _vm.revoke(token)
+        }
+      }
+    }, [_vm._v("\n                                    Revoke\n                                ")])])])
+  }))])])])]) : _vm._e()])
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('thead', [_c('tr', [_c('th', [_vm._v("Name")]), _vm._v(" "), _c('th', [_vm._v("Scopes")]), _vm._v(" "), _c('th')])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-5bf7fb62", module.exports)
+  }
+}
+
+/***/ }),
+/* 47 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', [_c('div', [_c('div', {
+    staticClass: "panel panel-default"
+  }, [_c('div', {
+    staticClass: "panel-heading"
+  }, [_c('div', {
+    staticStyle: {
+      "display": "flex",
+      "justify-content": "space-between",
+      "align-items": "center"
+    }
+  }, [_c('span', [_vm._v("\n                        Personal Access Tokens\n                    ")]), _vm._v(" "), _c('a', {
+    staticClass: "action-link",
+    on: {
+      "click": _vm.showCreateTokenForm
+    }
+  }, [_vm._v("\n                        Create New Token\n                    ")])])]), _vm._v(" "), _c('div', {
+    staticClass: "panel-body"
+  }, [(_vm.tokens.length === 0) ? _c('p', {
+    staticClass: "m-b-none"
+  }, [_vm._v("\n                    You have not created any personal access tokens.\n                ")]) : _vm._e(), _vm._v(" "), (_vm.tokens.length > 0) ? _c('table', {
+    staticClass: "table table-borderless m-b-none"
+  }, [_vm._m(0), _vm._v(" "), _c('tbody', _vm._l((_vm.tokens), function(token) {
+    return _c('tr', [_c('td', {
+      staticStyle: {
+        "vertical-align": "middle"
+      }
+    }, [_vm._v("\n                                " + _vm._s(token.name) + "\n                            ")]), _vm._v(" "), _c('td', {
+      staticStyle: {
+        "vertical-align": "middle"
+      }
+    }, [_c('a', {
+      staticClass: "action-link text-danger",
+      on: {
+        "click": function($event) {
+          _vm.revoke(token)
+        }
+      }
+    }, [_vm._v("\n                                    Delete\n                                ")])])])
+  }))]) : _vm._e()])])]), _vm._v(" "), _c('div', {
+    staticClass: "modal fade",
+    attrs: {
+      "id": "modal-create-token",
+      "tabindex": "-1",
+      "role": "dialog"
+    }
+  }, [_c('div', {
+    staticClass: "modal-dialog"
+  }, [_c('div', {
+    staticClass: "modal-content"
+  }, [_vm._m(1), _vm._v(" "), _c('div', {
+    staticClass: "modal-body"
+  }, [(_vm.form.errors.length > 0) ? _c('div', {
+    staticClass: "alert alert-danger"
+  }, [_vm._m(2), _vm._v(" "), _c('br'), _vm._v(" "), _c('ul', _vm._l((_vm.form.errors), function(error) {
+    return _c('li', [_vm._v("\n                                " + _vm._s(error) + "\n                            ")])
+  }))]) : _vm._e(), _vm._v(" "), _c('form', {
+    staticClass: "form-horizontal",
+    attrs: {
+      "role": "form"
+    },
+    on: {
+      "submit": function($event) {
+        $event.preventDefault();
+        _vm.store($event)
+      }
+    }
+  }, [_c('div', {
+    staticClass: "form-group"
+  }, [_c('label', {
+    staticClass: "col-md-4 control-label"
+  }, [_vm._v("Name")]), _vm._v(" "), _c('div', {
+    staticClass: "col-md-6"
+  }, [_c('input', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: (_vm.form.name),
+      expression: "form.name"
+    }],
+    staticClass: "form-control",
+    attrs: {
+      "id": "create-token-name",
+      "type": "text",
+      "name": "name"
+    },
+    domProps: {
+      "value": (_vm.form.name)
+    },
+    on: {
+      "input": function($event) {
+        if ($event.target.composing) { return; }
+        _vm.form.name = $event.target.value
+      }
+    }
+  })])]), _vm._v(" "), (_vm.scopes.length > 0) ? _c('div', {
+    staticClass: "form-group"
+  }, [_c('label', {
+    staticClass: "col-md-4 control-label"
+  }, [_vm._v("Scopes")]), _vm._v(" "), _c('div', {
+    staticClass: "col-md-6"
+  }, _vm._l((_vm.scopes), function(scope) {
+    return _c('div', [_c('div', {
+      staticClass: "checkbox"
+    }, [_c('label', [_c('input', {
+      attrs: {
+        "type": "checkbox"
+      },
+      domProps: {
+        "checked": _vm.scopeIsAssigned(scope.id)
+      },
+      on: {
+        "click": function($event) {
+          _vm.toggleScope(scope.id)
+        }
+      }
+    }), _vm._v("\n\n                                                " + _vm._s(scope.id) + "\n                                        ")])])])
+  }))]) : _vm._e()])]), _vm._v(" "), _c('div', {
+    staticClass: "modal-footer"
+  }, [_c('button', {
+    staticClass: "btn btn-default",
+    attrs: {
+      "type": "button",
+      "data-dismiss": "modal"
+    }
+  }, [_vm._v("Close")]), _vm._v(" "), _c('button', {
+    staticClass: "btn btn-primary",
+    attrs: {
+      "type": "button"
+    },
+    on: {
+      "click": _vm.store
+    }
+  }, [_vm._v("\n                        Create\n                    ")])])])])]), _vm._v(" "), _c('div', {
+    staticClass: "modal fade",
+    attrs: {
+      "id": "modal-access-token",
+      "tabindex": "-1",
+      "role": "dialog"
+    }
+  }, [_c('div', {
+    staticClass: "modal-dialog"
+  }, [_c('div', {
+    staticClass: "modal-content"
+  }, [_vm._m(3), _vm._v(" "), _c('div', {
+    staticClass: "modal-body"
+  }, [_c('p', [_vm._v("\n                        Here is your new personal access token. This is the only time it will be shown so don't lose it!\n                        You may now use this token to make API requests.\n                    ")]), _vm._v(" "), _c('pre', [_c('code', [_vm._v(_vm._s(_vm.accessToken))])])]), _vm._v(" "), _vm._m(4)])])])])
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('thead', [_c('tr', [_c('th', [_vm._v("Name")]), _vm._v(" "), _c('th')])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "modal-header"
+  }, [_c('button', {
+    staticClass: "close",
+    attrs: {
+      "type": "button ",
+      "data-dismiss": "modal",
+      "aria-hidden": "true"
+    }
+  }, [_vm._v("×")]), _vm._v(" "), _c('h4', {
+    staticClass: "modal-title"
+  }, [_vm._v("\n                        Create Token\n                    ")])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('p', [_c('strong', [_vm._v("Whoops!")]), _vm._v(" Something went wrong!")])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "modal-header"
+  }, [_c('button', {
+    staticClass: "close",
+    attrs: {
+      "type": "button ",
+      "data-dismiss": "modal",
+      "aria-hidden": "true"
+    }
+  }, [_vm._v("×")]), _vm._v(" "), _c('h4', {
+    staticClass: "modal-title"
+  }, [_vm._v("\n                        Personal Access Token\n                    ")])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "modal-footer"
+  }, [_c('button', {
+    staticClass: "btn btn-default",
+    attrs: {
+      "type": "button",
+      "data-dismiss": "modal"
+    }
+  }, [_vm._v("Close")])])
+}]}
+module.exports.render._withStripped = true
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+     require("vue-hot-reload-api").rerender("data-v-6c2004ce", module.exports)
   }
 }
 
@@ -33481,13 +33481,13 @@ var content = __webpack_require__(36);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("aa3249c6", content, false);
+var update = __webpack_require__(4)("77be611f", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-12423c18\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./AuthorizedClients.vue", function() {
-     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-12423c18\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./AuthorizedClients.vue");
+   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-3179683d\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Clients.vue", function() {
+     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-3179683d\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Clients.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -33507,13 +33507,13 @@ var content = __webpack_require__(37);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("0f787fb0", content, false);
+var update = __webpack_require__(4)("d072c9c6", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-14d07923\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./PersonalAccessTokens.vue", function() {
-     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-14d07923\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./PersonalAccessTokens.vue");
+   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-5bf7fb62\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./AuthorizedClients.vue", function() {
+     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-5bf7fb62\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./AuthorizedClients.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -33533,13 +33533,13 @@ var content = __webpack_require__(38);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(4)("51915176", content, false);
+var update = __webpack_require__(4)("62650251", content, false);
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-3f84f473\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Clients.vue", function() {
-     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-3f84f473\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./Clients.vue");
+   module.hot.accept("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-6c2004ce\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./PersonalAccessTokens.vue", function() {
+     var newContent = require("!!../../../../../node_modules/css-loader/index.js!../../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"id\":\"data-v-6c2004ce\",\"scoped\":true,\"hasInlineConfig\":true}!../../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./PersonalAccessTokens.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
