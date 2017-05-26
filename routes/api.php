@@ -9,9 +9,9 @@
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
-Route::group(['namespace' => 'Auth', 'middleware'=>'auth:api'], function(){
-    Route::get('user', 'ApiController@user');
+Route::group(['namespace' => 'Auth'], function(){
+    Route::get('user', 'ApiController@user')->middleware('auth:api');
+    Route::get('register', 'ApiController@register');
 });
 Route::group(['namespace' => 'Api\v1', 'prefix'=>'v1', 'middleware'=>'auth:api'], function(){
     Route::resource('usuarios', 'UsuarioController');

@@ -2,38 +2,56 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use App\Model\User;
+use App\Model\Api\v1\Usuario;
+use Auth as Auth;
 
-class LoginController extends Controller
+class LoginController extends \App\Http\Controllers\Controller
 {
-    /*
-    |--------------------------------------------------------------------------
-    | Login Controller
-    |--------------------------------------------------------------------------
-    |
-    | This controller handles authenticating users for the application and
-    | redirecting them to your home screen. The controller uses a trait
-    | to conveniently provide its functionality to your applications.
-    |
-    */
-
     use AuthenticatesUsers;
 
-    /**
-     * Where to redirect users after login.
-     *
-     * @var string
-     */
     protected $redirectTo = '/dashboard';
+    protected $redirectAfterLogout = '/';
 
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+    public function showLoginForm(){
+        return view('auth/login');
+    }
+    public function login(Request $request)
+    {
+        $this->validate($request, User::rules['login']);
+        $credentials = [
+            'username' => strtolower($request->get('username')),
+            'password' => $request->get('password')
+        ];
+        if (Auth::attempt($credentials)) {
+            session()->flash('message',['success', 'You are logged in!']);
+            return redirect()->intended($this->redirectTo);
+        }
+        else {
+            $usuario = Usuario::with('pessoa')->where(['login'=>$credentials['username']])->first();
+            if(@$usuario->senha == md5($credentials['password'])) {
+                User::updateOrCreate(
+                    ['username' => $usuario->login],
+                    [
+                        'name'=>$usuario->pessoa->nome,
+                        'email'=>$usuario->email,
+                        'username'=>$credentials['username'],
+                        'password'=>bcrypt($credentials['password']),
+                        'id_pessoa_sig'=>$usuario->id_pessoa
+                    ]
+                );
+                Auth::attempt($credentials);
+                session()->flash('message',['success', 'You are logged in!']);
+                return redirect()->intended($this->redirectTo);
+            }
+            session()->flash('message',['warning', 'These credentials do not match our records.']);
+        }
+        return redirect()->back()->withInput($request->input());
     }
 }

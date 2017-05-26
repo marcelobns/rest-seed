@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Api\v1;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Transformers\v1\UsuarioTransformer;
+use App\Model\Api\v1\Usuario;
 
 class UsuarioController extends Controller
 {
@@ -12,9 +14,23 @@ class UsuarioController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        return $this->notImplemented();
+        return fractal(Usuario::where($request->except(['include','page']))
+                        ->paginate(30),new UsuarioTransformer())
+                ->parseIncludes($request->input('include'));
+    }
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show(Request $request, $id)
+    {
+        return fractal(Usuario::where($request->except(['include','page']))
+                        ->find($id),new UsuarioTransformer())
+                ->parseIncludes($request->input('include'));
     }
 
     /**
@@ -34,17 +50,6 @@ class UsuarioController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
-        return $this->notImplemented();
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
     {
         return $this->notImplemented();
     }
