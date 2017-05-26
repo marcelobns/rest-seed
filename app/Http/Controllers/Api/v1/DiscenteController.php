@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Api\v1;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Model\Api\v1\Discente;
+use App\Transformers\v1\DiscenteTransformer;
 
 class DiscenteController extends Controller
 {
@@ -12,9 +14,11 @@ class DiscenteController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        return $this->notImplemented();
+        return fractal(Discente::where($request->except(['include','page']))
+                    ->paginate(30), new DiscenteTransformer())
+                ->parseIncludes($request->input('include'));
     }
 
     /**

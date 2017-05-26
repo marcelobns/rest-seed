@@ -6,7 +6,7 @@ use App\Model\Api\v1\Pessoa;
 
 class PessoaTransformer extends \App\Transformers\Transformer
 {
-    protected $availableIncludes = ['discentes', 'endereco'];
+    protected $availableIncludes = ['discente', 'discentes', 'endereco'];
 
     public function transform(Pessoa $pessoa)
     {
@@ -15,9 +15,9 @@ class PessoaTransformer extends \App\Transformers\Transformer
             'id'=>$pessoa->id_pessoa,
             'nome'=>$pessoa->nome,
             'sexo'=>$pessoa->sexo,
-            'cpf'=>$pessoa->cpf_cnpj,
-            'identidade'=>$pessoa->numero_identidade,
-            'identidade_expedidor'=>$pessoa->orgao_expedicao_identidade,
+            'cpf_cnpj'=>$pessoa->cpf_cnpj,
+            'numero_identidade'=>$pessoa->numero_identidade,
+            'orgao_expedicao_identidade'=>$pessoa->orgao_expedicao_identidade,
             'email'=>$pessoa->email,
             'internacional'=>$pessoa->internacional,
             'passaporte'=>$pessoa->passaporte,
@@ -25,6 +25,10 @@ class PessoaTransformer extends \App\Transformers\Transformer
                 'self' => url("api/v1/pessoas/{$pessoa->id_pessoa}")
             ],
         ];
+    }
+    public function includeDiscente(Pessoa $pessoa)
+    {
+        return $pessoa->discente ? $this->item($pessoa->discente, new DiscenteTransformer) : null;
     }
     public function includeDiscentes(Pessoa $pessoa)
     {

@@ -4,9 +4,10 @@ namespace App\Model\Api\v1;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Curso extends Model
+class FormaIngresso extends Model
 {
     protected $connection = 'pgsql_sigaa';
-    protected $table = 'curso';
-    protected $primaryKey = 'id_curso';
+    protected $table = 'ensino.forma_ingresso';
+    protected $primaryKey = 'id_pessoa';
+
 }

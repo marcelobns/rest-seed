@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Auth;
 use Illuminate\Http\Request;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use App\Model\User;
-use App\Model\Api\v1\Usuario;
+use App\Model\Login\Usuario;
 use Auth as Auth;
 
 class LoginController extends \App\Http\Controllers\Controller
@@ -41,9 +41,9 @@ class LoginController extends \App\Http\Controllers\Controller
                     [
                         'name'=>$usuario->pessoa->nome,
                         'email'=>$usuario->email,
+                        'cpf'=>$usuario->pessoa->cpf_cnpj,
                         'username'=>$credentials['username'],
-                        'password'=>bcrypt($credentials['password']),
-                        'id_pessoa_sig'=>$usuario->id_pessoa
+                        'password'=>bcrypt($credentials['password'])
                     ]
                 );
                 Auth::attempt($credentials);

@@ -1,5 +1,6 @@
 <?php
-namespace App\Model\Api\v1;
+
+namespace App\Model\Login;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -14,8 +15,5 @@ class Usuario extends Model
     ];
     public function pessoa(){
         return $this->belongsTo(Pessoa::class, 'id_pessoa');
-    }
-    public function discente(){
-        return $this->belongsTo(Discente::class, 'id_pessoa');
     }
 }

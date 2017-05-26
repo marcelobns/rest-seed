@@ -8,4 +8,8 @@ class Discente extends Model {
     protected $connection = 'pgsql_sigaa';
     protected $table = 'discente';
     protected $primaryKey = 'id_discente';
+
+    public function curso(){
+        return $this->belongsTo(Curso::class, 'id_curso');
+    }
 }

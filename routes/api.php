@@ -14,8 +14,8 @@ Route::group(['namespace' => 'Auth'], function(){
     Route::get('register', 'ApiController@register');
 });
 Route::group(['namespace' => 'Api\v1', 'prefix'=>'v1', 'middleware'=>'auth:api'], function(){
-    Route::resource('usuarios', 'UsuarioController');
     Route::resource('pessoas', 'PessoaController');
     Route::resource('discentes', 'DiscenteController');
     Route::resource('cursos', 'CursoController');
+    Route::resource('forma_ingresso', 'FormaIngressoController');
 });
